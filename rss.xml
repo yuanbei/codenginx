@@ -2,16 +2,16 @@
 <rss version="2.0">
     <channel>
         <title>RSS feed title</title>
-        <link>Homepage link</link>
+        <link>http://blog.codenginx.org</link>
         <description>RSS feed description</description>
-        <lastBuildDate>Fri, 01 May 2015 15:46:42 +0800</lastBuildDate>
+        <lastBuildDate>Sat, 02 May 2015 13:25:16 +0800</lastBuildDate>
         <language>zh-cn</language>
         
         <item>
             <title>Papery快速指南</title>
-            <link>Homepage link/articles/papery-quickstart.html?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=rss</link>
-            <guid>Homepage link/articles/papery-quickstart.html</guid>
-            <author>Your E-mail Your name</author>
+            <link>http://blog.codenginx.org/articles/papery-quickstart.html?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=rss</link>
+            <guid>http://blog.codenginx.org/articles/papery-quickstart.html</guid>
+            <author>stevenchen20021@gmail.com 陈礼军</author>
             <pubDate>Wed, 02 Jan 2013 00:00:00 +0800</pubDate>
             <description>&lt;p&gt;Papery - create your simple, fast &amp; elegant blog with plain text.&lt;/p&gt;
 &lt;h1 id=&quot;使用说明&quot;&gt;使用说明&lt;/h1&gt;
@@ -266,9 +266,9 @@ THE SOFTWARE.&lt;/p&gt;
         
         <item>
             <title>代码与数学公式示例</title>
-            <link>Homepage link/articles/code-and-math.html?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=rss</link>
-            <guid>Homepage link/articles/code-and-math.html</guid>
-            <author>Your E-mail Your name</author>
+            <link>http://blog.codenginx.org/articles/code-and-math.html?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=rss</link>
+            <guid>http://blog.codenginx.org/articles/code-and-math.html</guid>
+            <author>stevenchen20021@gmail.com 陈礼军</author>
             <pubDate>Tue, 01 Jan 2013 00:00:00 +0800</pubDate>
             <description>&lt;h1 id=&quot;这是一段代码&quot;&gt;这是一段代码&lt;/h1&gt;
 &lt;pre class=&quot;prettyprint linenums lang-c&quot;&gt;#include &lt;stdio.h&gt;

@@ -2,6 +2,6 @@
   href: /pages/about-me.html
   target: _self
 
-- label: github
-  href: https://github.com/ericzhang-cn/papery
-  target: _blank
+- label: 致谢 
+  href: /pages/thanks.html 
+  target: _self
