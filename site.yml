@@ -1,18 +1,20 @@
-title: Codenginx
-subtitle: Coding like nginx
+title: CodeNginx
+subtitle: Coding like Nginx
 link: http://blog.codenginx.org
 meta:
-  description: coding like nginx 
+  description: coding like Nginx 
   keywords: !!seq
-    - nginx 
-    - web browser 
-    - network optimize 
-    - chromium  
-    - http/2  
+    - nginx
+    - web browser
+    - network optimize
+    - chromium
+    - http/2
+    - git
+    - adblock
   author: 陈礼军 
 master:
   name: 陈礼军 
-  about: 向nginx致敬！跟自己过不去的程序猿才是好工程师！
+  about: 向Nginx致敬！跟自己过不去的程序猿才是好工程师！
   email: stevenchen20021@gmail.com
 rss:
   title: RSS feed title
@@ -21,7 +23,7 @@ rss:
   max: 10
 copyright:
   owner:
-    begin: Codenginx 本博客内容采用
+    begin: CodeNginx 本博客内容采用
     content: 知识共享署名3.0 中国大陆许可协议   
     href: http://creativecommons.org/licenses/by/3.0/cn/  
     end: 进行许可 

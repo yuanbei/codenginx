@@ -32,6 +32,21 @@
 
 </article></section></slide>
 <slide class="slide"><section class="slide-wrapper"><article>
+<h2>What is HTTP Protocol?</h2>
+<blockquote>
+<p>The Hypertext Transfer Protocol (HTTP) is an application-level
+   protocol for distributed, collaborative, hypermedia information
+   systems. It is a generic, stateless, protocol which can be used for
+   many tasks beyond its use for hypertext, such as name servers and
+   distributed object management systems, through extension of its
+   request methods, error codes and headers [47]. A feature of HTTP is
+   the typing and negotiation of data representation, allowing systems
+   to be built independently of the data being transferred.</p>
+</blockquote>
+<p>   <a href="https://www.rfc-editor.org/rfc/rfc2616.txt" target="_blank">rfc2616</a></p>
+
+</article></section></slide>
+<slide class="slide"><section class="slide-wrapper"><article>
 <h2>HTTP 协议初探</h2>
 <p>用户在地址栏中输入URL，到页面最终被加载完成。将会经历以下几个过程。</p>
 <ol>
@@ -48,19 +63,58 @@
 </article></section></slide>
 <slide class="slide"><section class="slide-wrapper"><article>
 <h2>URI, URL, URN</h2>
-<p>  URI: URI是以某种统一的（标准化的）方式标识资源的简单字符串,英文全称为（Uniform
-Resource Indentifier, URI).
-  URL:
-  URN:
-  <strong>URL, URN是URI的两种不同的实现形式。</strong></p>
+<ol>
+<li>URI: URI是以某种统一的（标准化的）方式标识资源的简单字符串</li>
+<li>英文全称为（Uniform Resource Indentifier, URI).</li>
+<li><p>URL: 统一资源定位符（或称统一资源定位器/定位地址、URL地址)</p>
+<p><img src="http://www.ituring.com.cn/figures/2013/HTTP_The%20Definitive%20Guide/06.d02z.01.png" alt="URL 是怎样与浏览器、客户端、服务器以及服务器文件系统中的位置进行关联的如下图"></p>
+</li>
+</ol>
 
 </article></section></slide>
 <slide class="slide"><section class="slide-wrapper"><article>
-<h2>URL 的构成</h2>
+<p>URN: 统一资源名称（URN）是统一资源标识（URI）的历史名字
+  它使用urn:作为URI scheme。</p>
+<p>       urn:NID:NSS</p>
+<p>       urn:uuid:6e8bc430-9c3a-11d9-9669-0800200c9a66</p>
+<p>  <strong>URL, URN是URI的两种不同的实现形式。</strong></p>
+
+</article></section></slide>
+<slide class="slide"><section class="slide-wrapper"><article>
+<h2>[URL 的构成]</h2>
+<p> <strong>scheme://[user:password@]domain:port/path?query_string#fragment_id</strong></p>
+<ol>
+<li>scheme: ftp,http,https,file</li>
+<li>domain: IP(IPV4,IPV6), domain(like uc123.com)</li>
+<li>query_string: ?first_name=John&amp;last_name=Doe</li>
+<li><p>fragment_id: 表明了一个页面的某一个部分</p>
+<p><a href="http://chimera.labs.oreilly.com/books/1230000000545/ch12.html#_brief_history_of_spdy_and_http_2" target="_blank">http://chimera.labs.oreilly.com/books/1230000000545/ch12.html#_brief_history_of_spdy_and_http_2</a></p>
+</li>
+</ol>
 
 </article></section></slide>
 <slide class="slide"><section class="slide-wrapper"><article>
 <h2>REQUEST message &amp;&amp; RESPONSE message</h2>
+<p>请求报文和响应报文的格式基本相同，由如下三个部分组成</p>
+<ol>
+<li>Start line</li>
+<li>Headers</li>
+<li>Body</li>
+</ol>
+
+</article></section></slide>
+<slide class="slide"><section class="slide-wrapper"><article>
+<p><strong>Requset Method -- Request URL -- Client Version</strong></p>
+<p><img src="http://blog.codenginx.org/images/request_message.png" alt="request message"></p>
+
+</article></section></slide>
+<slide class="slide"><section class="slide-wrapper"><article>
+<p><strong>Server Version -- Status Code -- Reason Phrase</strong></p>
+<p><img src="http://blog.codenginx.org/images/response_message.png" alt="response message"></p>
+
+</article></section></slide>
+<slide class="slide"><section class="slide-wrapper"><article>
+<h2>HTTP  Method</h2>
 
 </article></section></slide>
 <slide class="slide"><section class="slide-wrapper"><article>
@@ -83,6 +137,25 @@ Resource Indentifier, URI).
 
 </article></section></slide>
 <slide class="slide"><section class="slide-wrapper"><article>
+<h2>Cookie</h2>
+<ol>
+<li>Cookie 的基本构成</li>
+<li>Path,domain 的作用</li>
+<li>Set Cookie2</li>
+<li>Cookie 与缓存</li>
+</ol>
+
+</article></section></slide>
+<slide class="slide"><section class="slide-wrapper"><article>
+<h2>代理</h2>
+<ol>
+<li>代理的类型</li>
+<li>客户端代理与反向代理
+3.</li>
+</ol>
+
+</article></section></slide>
+<slide class="slide"><section class="slide-wrapper"><article>
 <h2>连接管理</h2>
 <ol>
 <li>Origin (protocol ,scheme, port&gt;</li>
@@ -94,18 +167,10 @@ Resource Indentifier, URI).
 
 </article></section></slide>
 <slide class="slide"><section class="slide-wrapper"><article>
-<h2>代理</h2>
-
-</article></section></slide>
-<slide class="slide"><section class="slide-wrapper"><article>
-<h2>Cookie</h2>
-
-</article></section></slide>
-<slide class="slide"><section class="slide-wrapper"><article>
 <h2>HTTP/2</h2>
 <ol>
 <li>History &amp;&amp; Spdy</li>
-<li>HTTP协议要解决的主要问题</li>
+<li>HTTP/2协议要解决的主要问题（为什么会有HTTP/2)</li>
 <li>协议介绍（图解)</li>
 <li>连接复用(one Origin one connect)</li>
 <li>请求优先级</li>
@@ -113,6 +178,7 @@ Resource Indentifier, URI).
 <li>Server Push</li>
 <li>SSL 是否是必须的？</li>
 <li>ALPN</li>
+<li>HTTP/2的实现</li>
 </ol>
 
 </article></section></slide>
@@ -120,9 +186,10 @@ Resource Indentifier, URI).
 <h2>参考资料</h2>
 <ol>
 <li>RFC</li>
-<li>HTTP 权威指南</li>
+<li><a href="http://www.ituring.com.cn/book/844" target="_blank">HTTP 权威指南</a></li>
 <li><a href="http://chimera.labs.oreilly.com/books/1230000000545/index.html" target="_blank">High Perfermance Browser Network</a></li>
 <li>Chromium Network</li>
+<li>HTTP/2 相关的参考（集合）</li>
 </ol>
 
 </article></section></slide>
