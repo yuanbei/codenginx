@@ -4,7 +4,7 @@
         <title>RSS feed title</title>
         <link>http://blog.codenginx.org</link>
         <description>RSS feed description</description>
-        <lastBuildDate>Sun, 15 Nov 2015 23:17:50 +0800</lastBuildDate>
+        <lastBuildDate>Mon, 16 Nov 2015 07:16:06 +0800</lastBuildDate>
         <language>zh-cn</language>
         
         <item>
@@ -99,7 +99,7 @@
             <guid>http://blog.codenginx.org/articles/install-git-server-on-centos.html</guid>
             <author>stevenchen20021@gmail.com 陈礼军</author>
             <pubDate>Sun, 15 Nov 2015 00:00:00 +0800</pubDate>
-            <description>&lt;p&gt;之前我在学习git时主要是掌握了git客户端相关的操作，最近由于需要自己搭建了一个git server，故将搭建过程记录下来。我的服务器是Cent OS 64位，其中大部分命令在类linux 系统都适用。&lt;/p&gt;
+            <description>&lt;p&gt;之前我在学习git时主要是掌握了git客户端相关的操作。最近由于需要，自己搭建了一个git server，故将搭建过程记录下来。我的服务器是Cent OS 64位，其中大部分命令在类linux 系统都适用。&lt;/p&gt;
 &lt;p&gt;搭建过程主要分以下三个大的步骤。&lt;/p&gt;
 &lt;h3 id=&quot;为git-server-创建并配置git用户-用户组。&quot;&gt;为git server 创建并配置git用户,用户组。&lt;/h3&gt;
 &lt;p&gt;1.切换到root 用户&lt;/p&gt;
