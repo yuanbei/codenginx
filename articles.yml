@@ -5,3 +5,11 @@
   tags:
     - git
   abstract: revert reverted merge 问题分析及解决方案探讨。
+
+- id: install-git-server-on-centos
+  title: CentOS上搭建git server
+  postedOn: !!str 2015-11-15
+  author: 陈礼军
+  tags:
+    - git
+  abstract: CentOS上搭建git serveri的基本步骤。
