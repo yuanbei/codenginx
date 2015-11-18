@@ -93,6 +93,12 @@ vim /home/git/.ssh/authorized_keys #创建文件，并逐一添加用户的公�
 git clone git@host:/home/git/AdsCrawler #host可是ip也可以是域名
 ```
 
+###延伸
+本文只是简要介绍了配置git server的基本步骤。如果需要将用户管理，代码仓库管理等功能
+集成起来统一管理。可以参考下面两个实例。
+1. [gitblit](http://www.gitblit.com)
+2. [gitweb](http://git-scm.com/docs/gitweb)
+
 ###参考资料
 1.[如何生成管理RSA密钥](https://help.github.com/articles/generating-ssh-keys/)
 
