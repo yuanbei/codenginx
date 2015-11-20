@@ -1,6 +1,6 @@
 title: CodeNginx
 subtitle: Coding like Nginx
-link: http://blog.codenginx.org
+link: http://www.codenginx.org
 meta:
   description: coding like Nginx 
   keywords: !!seq
@@ -9,6 +9,7 @@ meta:
     - network optimize
     - chromium
     - http/2
+    - quic
     - git
     - adblock
   author: 陈礼军 
@@ -23,10 +24,10 @@ rss:
   max: 10
 copyright:
   owner:
-    begin: CodeNginx 本博客内容采用
-    content: 知识共享署名3.0 中国大陆许可协议   
-    href: http://creativecommons.org/licenses/by/3.0/cn/  
-    end: 进行许可 
+    begin: CodeNginx
+    content: 浙ICP备15016680号-1
+    href: http://www.miibeian.gov.cn
+    end: 在线
   beginYear: 2015
   endYear: 2015
 theme: default

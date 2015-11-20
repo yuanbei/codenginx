@@ -2,15 +2,15 @@
 <rss version="2.0">
     <channel>
         <title>RSS feed title</title>
-        <link>http://blog.codenginx.org</link>
+        <link>http://www.codenginx.org</link>
         <description>RSS feed description</description>
-        <lastBuildDate>Thu, 19 Nov 2015 07:13:13 +0800</lastBuildDate>
+        <lastBuildDate>Sat, 21 Nov 2015 06:55:15 +0800</lastBuildDate>
         <language>zh-cn</language>
         
         <item>
             <title>CentOS上搭建git server</title>
-            <link>http://blog.codenginx.org/articles/install-git-server-on-centos.html?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=rss</link>
-            <guid>http://blog.codenginx.org/articles/install-git-server-on-centos.html</guid>
+            <link>http://www.codenginx.org/articles/install-git-server-on-centos.html?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=rss</link>
+            <guid>http://www.codenginx.org/articles/install-git-server-on-centos.html</guid>
             <author>stevenchen20021@gmail.com 陈礼军</author>
             <pubDate>Sun, 15 Nov 2015 00:00:00 +0800</pubDate>
             <description>&lt;p&gt;之前我在学习git时主要是掌握了git客户端相关的操作。最近由于需要，自己搭建了一个git server，故将搭建过程记录下来。我的服务器是Cent OS 64位，其中大部分命令在类linux 系统都适用。&lt;/p&gt;
@@ -89,8 +89,8 @@ vim /home/git/.ssh/authorized_keys #创建文件，并逐一添加用户的公�
         
         <item>
             <title>revert reverted merge 问题分析</title>
-            <link>http://blog.codenginx.org/articles/revert-reverted-merge.html?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=rss</link>
-            <guid>http://blog.codenginx.org/articles/revert-reverted-merge.html</guid>
+            <link>http://www.codenginx.org/articles/revert-reverted-merge.html?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=rss</link>
+            <guid>http://www.codenginx.org/articles/revert-reverted-merge.html</guid>
             <author>stevenchen20021@gmail.com 陈礼军</author>
             <pubDate>Wed, 14 Oct 2015 00:00:00 +0800</pubDate>
             <description>&lt;p&gt;   上次在合并bus-0916到bus-0923上时，我遇到了revert reverted merge 问题。 经过这段时间的调查与分析，现在对该问题有了初步的认识，故而跟大家分享一下。&lt;/p&gt;
