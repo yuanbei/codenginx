@@ -4,7 +4,7 @@
         <title>RSS feed title</title>
         <link>http://www.codenginx.org</link>
         <description>RSS feed description</description>
-        <lastBuildDate>Sat, 21 Nov 2015 06:55:15 +0800</lastBuildDate>
+        <lastBuildDate>Sat, 21 Nov 2015 07:00:31 +0800</lastBuildDate>
         <language>zh-cn</language>
         
         <item>
@@ -79,6 +79,7 @@ vim /home/git/.ssh/authorized_keys #创建文件，并逐一添加用户的公�
 &lt;ol&gt;
 &lt;li&gt;&lt;a href=&quot;http://www.gitblit.com&quot;&gt;gitblit&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;http://git-scm.com/docs/gitweb&quot;&gt;gitweb&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://www.gitlab.cc&quot;&gt;gitlab&lt;/a&gt;&lt;/li&gt;
 &lt;/ol&gt;
 &lt;h3 id=&quot;参考资料&quot;&gt;参考资料&lt;/h3&gt;
 &lt;p&gt;1.&lt;a href=&quot;https://help.github.com/articles/generating-ssh-keys/&quot;&gt;如何生成管理RSA密钥&lt;/a&gt;&lt;/p&gt;

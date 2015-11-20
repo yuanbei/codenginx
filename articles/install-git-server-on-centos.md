@@ -98,6 +98,7 @@ git clone git@host:/home/git/AdsCrawler #host可是ip也可以是域名
 集成起来统一管理。可以参考下面两个实例。
 1. [gitblit](http://www.gitblit.com)
 2. [gitweb](http://git-scm.com/docs/gitweb)
+3. [gitlab](http://www.gitlab.cc)
 
 ###参考资料
 1.[如何生成管理RSA密钥](https://help.github.com/articles/generating-ssh-keys/)
