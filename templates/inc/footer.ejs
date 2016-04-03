@@ -1,6 +1,13 @@
         <div id="footer">
             <div id="footer-inner">
-                <p id="copyright">Copyright (c) <%= site.copyright.beginYear %>-<%= site.copyright.endYear %> <%= site.copyright.owner.begin %><a href=" <%= site.copyright.owner.href %>"> <%= site.copyright.owner.content %></a> <%= site.copyright.owner.end %> </p>
+                <p id="copyright">Copyright (c) <%= site.copyright.beginYear %>-<%= site.copyright.endYear %> <%= site.copyright.owner.begin %>      
+                    <a href=" <%= site.copyright.owner.href %>"> <%= site.copyright.owner.content %></a> 
+                    <a target="_blank" href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=33018502001249" style="display:inline-block;text-decoration:none;height:20px;line-height:20px;">
+                        <img src="../images/bei_an.png" style="float:left;"/>
+                        浙公网安备 33018502001249号
+                    </a> 
+                    <%= site.copyright.owner.end %> 
+                </p>
             </div>
         </div>
         <% include footer_plugin %>

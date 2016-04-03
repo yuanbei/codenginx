@@ -4,8 +4,8 @@
 * 自幼勤奋好学，大学里学了四年数学，并且自学计算机相关课程。
 * 研究生阶段转攻计算机，对人工智能十分感兴趣，可惜未能有所斩获。
 * 毕业后在武汉工作一年，从事KVM相关的客户端开发工作。
-* 2010年7月5日加入[淘宝](http://www.taobao.com), 在淘宝参与[阿里旺旺买家版](http://wangwang.taobao.com/)客户端开发。
-* 2011年6月开始开发[淘宝浏览器](http://browser.taobao.com/)。是最早的三个开发之一。
+* 2010年7月5日加入[淘宝](http://www.taobao.com), 参与了[阿里旺旺买家版](http://wangwang.taobao.com/)客户端开发。
+* 2011年6月开始开发[淘宝浏览器](http://browser.taobao.com/)，是最早的三个开发之一。
 * 2013年6月至今开发[UC浏览器](http://www.uc.cn/)。
 
 ###我专注的技术
@@ -16,7 +16,7 @@
 * 人工智能
 
 ###我个人维护的项目
-* [AdsCrawler](https://github.com/yuanbei/AdsCrawler)一个广告爬虫，尝试自动发现广告，并生成广告拦截规则。
+* [AdSpider](https://github.com/yuanbei/adspider)一个广告爬虫，尝试自动发现广告，并生成广告拦截规则。
 
 ###如何找到我
 * 代码在[github](https://github.com/yuanbei)
