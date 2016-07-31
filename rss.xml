@@ -4,7 +4,7 @@
         <title>RSS feed title</title>
         <link>http://www.codenginx.org</link>
         <description>RSS feed description</description>
-        <lastBuildDate>Sun, 03 Apr 2016 08:59:42 +0800</lastBuildDate>
+        <lastBuildDate>Mon, 01 Aug 2016 06:24:03 +0800</lastBuildDate>
         <language>zh-cn</language>
         
         <item>
@@ -171,6 +171,22 @@ vim /home/git/.ssh/authorized_keys #创建文件，并逐一添加用户的公�
 &lt;li&gt;&lt;a href=&quot;https://github.com/git/git/blob/master/Documentation/howto/revert-a-faulty-merge.txt&quot;&gt;https://github.com/git/git/blob/master/Documentation/howto/revert-a-faulty-merge.txt&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;http://git-scm.com/book/zh/v2/Git-工具-高级合并#撤消合并&quot;&gt;http://git-scm.com/book/zh/v2/Git-工具-高级合并#撤消合并&lt;/a&gt;&lt;/li&gt;
 &lt;/ol&gt;
+</description>
+        </item>
+        
+        <item>
+            <title>基于Scrapy打造分布式爬虫</title>
+            <link>http://www.codenginx.org/articles/scrapy-distributed-spider.html?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=rss</link>
+            <guid>http://www.codenginx.org/articles/scrapy-distributed-spider.html</guid>
+            <author>stevenchen20021@gmail.com 陈礼军</author>
+            <pubDate>Sun, 10 Apr 2016 00:00:00 +0800</pubDate>
+            <description>&lt;h3 id=&quot;背景&quot;&gt;背景&lt;/h3&gt;
+&lt;p&gt;最近的业余时间一直投入在我的专家计划项目&lt;a href=&quot;https://github.com/yuanbei/adspider&quot;&gt;Adspider&lt;/a&gt;。Adspider的主要目标是基于通用的网页爬虫做内容相关性分析，识别互联网中的广告，并自动生成&lt;a href=&quot;https://adblockplus.org/&quot;&gt;Adblock Plus&lt;/a&gt;格式的广告拦截规则。因此，一个稳定且功能完善的网页爬虫成为Adspider项目的关键，在参阅大量的资料后，我最终选择&lt;a href=&quot;http://scrapy.readthedocs.org/en/latest/&quot;&gt;Scrapy&lt;/a&gt;作为Adspider的爬虫框架。本文将主要介绍基于Scrapy来搭建一个分布式的网页爬虫框架。&lt;/p&gt;
+&lt;h3 id=&quot;scrapy-框架和主要数据流程&quot;&gt;Scrapy 框架和主要数据流程&lt;/h3&gt;
+&lt;p&gt;Scrapy是爱尔兰一家网络公司&lt;/p&gt;
+&lt;h3 id=&quot;frontera-框架和主要数据流程&quot;&gt;Frontera 框架和主要数据流程&lt;/h3&gt;
+&lt;h3 id=&quot;splash&quot;&gt;Splash&lt;/h3&gt;
+&lt;h3 id=&quot;分布式爬虫的部署&quot;&gt;分布式爬虫的部署&lt;/h3&gt;
 </description>
         </item>
         

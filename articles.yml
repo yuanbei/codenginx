@@ -14,3 +14,10 @@
     - git
   abstract: revert reverted merge 问题分析及解决方案探讨。
 
+- id: scrapy-distributed-spider
+  title: 基于Scrapy打造分布式爬虫
+  postedOn: !!str 2016-04-10
+  author: 陈礼军
+  tags:
+    - Scrapy
+  abstract: 基于Scrapy, Splash, Frontera打造分布式爬虫.
